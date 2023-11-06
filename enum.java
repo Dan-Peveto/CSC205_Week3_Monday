@@ -1,0 +1,4 @@
+package CSC205_Week3_Monday;
+
+enum Seasons {SPRING, SUMMER, FALL, WINTER};
+enum Major {ART, MATHMATICS, BUSINESS, ENGINEERING, EDUCATION, IT};

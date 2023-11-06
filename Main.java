@@ -53,7 +53,9 @@ public class Main {
         Student student2 = new Student();
         student2.SetFirstName("Ernest");
         student2.SetLastName("Hemingway");
-        System.out.println(student1.getFirstName() + " " + student1.getLastName());
-        System.out.println(student2.getFirstName() + " " + student2.getLastName());
+        student1.PrintNames();
+        System.out.println(student2);
+        student1.ChangeNameAndMajor("Vonnie", Major.MATHMATICS);
+        System.out.println(student1 + " " + " Major: " + student1.Major);
     }
 }

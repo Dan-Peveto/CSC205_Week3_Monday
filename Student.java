@@ -18,4 +18,24 @@ public class Student {
     float GPA;
     Major Major;
     boolean isVeteran;
+
+    public void PrintNames() {
+        System.out.println(FirstName + " " + LastName);
+    }
+
+    public String toString() {
+        return "First Name: " + FirstName + " Last Name: " + LastName;
+    }
+
+    public void ChangeNameAndMajor(String LastName, Major Major) {
+        this.LastName = LastName;
+        this.Major = Major;
+    }
+
+    public void ChangeNameAndMajor(String FirstName ,String LastName, Major Major) {
+        this.FirstName = FirstName;
+        this.LastName = LastName;
+        this.Major = Major;
+
+    }
 }
